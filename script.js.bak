@@ -344,12 +344,12 @@ let dye;
 
 //const sunraysProgram         = new Program(baseVertexShader, sunraysShader);
 const splatProgram           = new Program(baseVertexShader, splatShader);
-let textTexture = createTextureAsyncr('04.png');
+/*let textTexture = createTextureAsyncr('04.png');
 let rampTexture = createTextureAsync('ramp07.jpg');
-let noiTexture = createTextureAsyncr('bleunoise.png');
-//let textTexture = createTextureAsyncr('https://cdn.jsdelivr.net/gh/Cosamentale/jsDdal/04.png');
-//let rampTexture = createTextureAsync('https://cdn.jsdelivr.net/gh/Cosamentale/jsDdal/ramp07.jpg');
-//let noiTexture = createTextureAsyncr('https://cdn.jsdelivr.net/gh/Cosamentale/jsDdal/bleunoise.png');
+let noiTexture = createTextureAsyncr('bleunoise.png');*/
+let textTexture = createTextureAsyncr('https://cdn.jsdelivr.net/gh/Cosamentale/jsDdal/04.png');
+let rampTexture = createTextureAsync('https://cdn.jsdelivr.net/gh/Cosamentale/jsDdal/ramp07.jpg');
+let noiTexture = createTextureAsyncr('https://cdn.jsdelivr.net/gh/Cosamentale/jsDdal/bleunoise.png');
 
 const displayMaterial = new Material(baseVertexShader, displayShaderSource);
 
